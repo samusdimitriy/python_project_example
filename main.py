@@ -1,5 +1,11 @@
-money = 0
-if money:
-    print(f"You have {money} on your bank account")
-else:
-    print("You have no money and no debts")
+import math
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+P = a + b + c
+p = P / 2
+S = math.sqrt(p * (p - a) * (p - b) * (p - c))
+
+print("P = ", P)
