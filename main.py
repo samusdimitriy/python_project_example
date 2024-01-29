@@ -1,6 +1,3 @@
-name = "Taras"
-age = 22
-has_driver_license = True
-
-if name and age >= 18 and has_driver_license:
-    print(f"User {name} can drive a car!")
+is_nice = True
+state = "nice" if is_nice else "not nice"
+print(state)
