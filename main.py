@@ -1,6 +1,5 @@
-age = input("How old are you? ")
-
-if int(age) >= 18:
-    print("You are adult already.")
-else:
-    print("You are infant yet.")
+money = 0
+if money:
+    print(f"You have {money} on your bank account")
+else: 
+    print("You have no money on your bank account")
