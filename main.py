@@ -1,6 +1,6 @@
-user_name = input("Enter your name: ")
+name = "Taras"
+age = 22
+has_driver_license = True
 
-if user_name:
-    print(f"Hello {user_name}")
-else:
-    print("Hi Anonym!")
+if name and age >= 18 and has_driver_license:
+    print(f"User {name} can drive a car!")
