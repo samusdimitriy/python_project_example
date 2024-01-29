@@ -1,3 +1,3 @@
-is_nice = True
-state = "nice" if is_nice else "not nice"
-print(state)
+some_data = None
+msg = some_data or "No data returned"
+print(msg)
