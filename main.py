@@ -1,9 +1,9 @@
-val = '1'
-try: 
-    val=int(val)
+age = input("How old are you? ")
+try:
+    age = int(age)
+    if age >= 18:
+        print("You are an adult")
+    else:
+        print("You are not an adult")
 except ValueError:
-    print(f'val {val} is not a number')
-else:
-    print(val > 0)
-finally:
-    print("this will be printed no matter what")
+    print(f"{age} is not a number")
