@@ -1,13 +1,10 @@
-num = int(input("Enter a number: "))
 
-if num > 0:
-    if (num % 2):
-        result = "Positive odd number"
-    else:
-        result = "Positive even number"
-elif num < 0:
-    result = "Negative number"
-else:
-    result = "It is zero"
 
-print(result)
+num = int(input("Enter the integer (0 to 100): "))
+sum = 0
+
+while num != 0:
+    sum += num
+    num = int(input("Enter the integer (0 to 100): "))
+    
+    
