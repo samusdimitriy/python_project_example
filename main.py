@@ -1,10 +1,10 @@
+message = "Never argue with stupid people, they will drag you down to their level and then beat you with experience."
+search = "r"
+result = 0
+for v in message:
+    if v == search:
+        result += 1
 
-
-num = int(input("Enter the integer (0 to 100): "))
-sum =  0
-
-while num != 0:
-    sum += num
-    num = int(input("Enter the integer (0 to 100): "))
+print(result)
     
-    
+        
