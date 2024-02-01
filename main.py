@@ -1,10 +1,9 @@
-message = "Never argue with stupid people, they will drag you down to their level and then beat you with experience."
-search = "r"
-result = 0
-for v in message:
-    if v == search:
-        result += 1
-
-print(result)
-    
+sum = 0
+while True:
+    num = int(input("Enter integer (0 for output): "))
+    if num == 0:
+        break
         
+    for i in range(num + 1):
+        sum = sum + i
+print(sum)
