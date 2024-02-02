@@ -1,6 +1,7 @@
-pool = 1000
-quantity = int(input("Enter the number of mailings: "))
-try:
-    chunk = pool // quantity
-except ZeroDivisionError:
-    print('Divide by zero completed!')
+no_empty = dict()
+print(no_empty)
+no_empty = {"key": "value"}
+print(no_empty)
+no_empty["new_key"] = "new_value"
+print(no_empty)
+
