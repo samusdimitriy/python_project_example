@@ -1,11 +1,3 @@
-import sys
-
-def say_hello(name):
-    print(f'Привет, {name}')
-
-def main():
-    print("Вы импортировали hello.py")
-    say_hello('пользователь')
-
-if __name__ == '__main__':
-    main()
+def invite_to_event(username):
+    return f"Dear {username}, we have the honour to invite you to our event"
+    
