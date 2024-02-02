@@ -1,7 +1,10 @@
-no_empty = dict()
-print(no_empty)
-no_empty = {"key": "value"}
-print(no_empty)
-no_empty["new_key"] = "new_value"
-print(no_empty)
+def factorial(n):
+    if n <= 1:
+        print(f"factorial({n}) = 1")
+        return 1
+    else:
+        result = n * factorial(n - 1)
+        print(f"factorial({n}) = {result}")
+        return result
+factorial(5) 
 
