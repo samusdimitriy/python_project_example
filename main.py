@@ -1,12 +1,17 @@
-base_rate = 40
-price_per_km = 10
-total_trip = 0
+username = input("Enter your user name please: ")
+password = input("Enter your user password please: ")
 
-
-def calculate_trip_price(distance_km):
-    global total_trip 
-    total_trip += 1
-    return float(base_rate + distance_km * price_per_km)
-    
-    
-print(calculate_trip_price(20))
+if "admin" in username:
+    if password == "qwerty":
+        print(f"Login successful! Welcome {username}")
+    elif password == "12345":
+        print("Week password")
+    else:
+        print("incorrect password")
+elif "guest" in username:
+    if password == "guest123":
+        print(f"Login successful! Welcome {username}")
+    else:
+        print("incorrect password")
+else: 
+    print("only guests or admins allowed")
