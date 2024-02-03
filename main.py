@@ -1,11 +1,4 @@
-a = [3, 5, -4, 56, 1]
-max_el = a[4]
+age = 18
+is_allowed = False
 
-b = "dfslnsgsg"
-
-count = 0
-
-for e in a:
-    if e > max_el:
-        max_el = e
-print(max_el)
+is_allowed = True if age >= 18 else False
