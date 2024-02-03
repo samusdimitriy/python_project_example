@@ -1,8 +1,5 @@
-def cost_delivery(quantity, *numbers, discount = 0):
-    cost_first_delivery = 5
-    cost_sub_deliveries = 2
+def cost_delivery(quantity, *_, discount = 0):
+    result = (5 + 2 * (quantity - 1)) * (1 - discount)
+    return result
 
-    sum_delivery = (quantity - 1) * cost_sub_deliveries + cost_first_delivery
-    return sum_delivery * (1 - discount)
-
-print(cost_delivery(1))
+print(cost_delivery(3,2,3,4))
