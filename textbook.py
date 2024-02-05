@@ -1,3 +1,8 @@
-password = "qwerty123"
-if "qwerty" in password or "123" in password:
-    print("This password is too weak!")
+user = {
+    "name": "Bill",
+    "surname": "Bosh",
+    "age": 22
+}
+
+if "age" in user:
+    print(f"User is {user['age']} years old.")
