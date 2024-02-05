@@ -1,3 +1,3 @@
-password = input("Password: ")
-if len(password) < 8:
-    print("Your password is too short")
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+for char in alphabet:
+    print(char)
