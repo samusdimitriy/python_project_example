@@ -1,8 +1,3 @@
-user = {
-    "name": "Bill",
-    "surname": "Bosh",
-    "age": 22
-}
-
-if "age" in user:
-    print(f"User is {user['age']} years old.")
+password = input("Password: ")
+if len(password) < 8:
+    print("Your password is too short")
