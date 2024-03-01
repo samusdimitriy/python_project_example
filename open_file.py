@@ -1,9 +1,5 @@
-fh = open('test.txt', 'w')
-fh.write('first line\nsecond line\nthird line')
-fh.close()
+import shutil
 
-fh = open('test.txt', 'r')
-lines = fh.readlines()
-print(lines)
+for shortcut, description in shutil.get_archive_formats():
+    print('{:<10} | {:<10}'.format(shortcut, description))
 
-fh.close()
